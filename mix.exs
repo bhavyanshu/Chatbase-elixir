@@ -4,7 +4,7 @@ defmodule Chatbase.Mixfile do
   def project do
     [
       app: :chatbase,
-      version: "0.0.1",
+      version: "0.0.2",
       description: description(),
       elixir: "~> 1.4",
       build_embedded: Mix.env == :prod,

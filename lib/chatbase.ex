@@ -4,7 +4,7 @@ defmodule Chatbase do
   """
 
   @base_url "https://chatbase.com/api/"
-  @api_key Application.get_env(:chatbase, :api_key)
+  @api_key Config.get(:chatbase, :api_key, System.get_env("CHATBASE_API_KEY"))
 
   # Helper method to get time in milli seconds
   defp milli_seconds do
