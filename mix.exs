@@ -20,7 +20,7 @@ defmodule Chatbase.Mixfile do
 
   defp description do
     """
-    Elixir based wrapper for Chatbase API that helps you integrate chatbase analytics.
+    Elixir based client that provides helper methods to log data to Chatbase Bot Analytics API.
     Note: This is not an official Google product.
     """
   end

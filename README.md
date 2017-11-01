@@ -4,7 +4,7 @@ Elixir based client that provides helper methods to log data to Chatbase Bot Ana
 
 > Note: This is not an official Google product.
 
-For more information, read [official documentation](https://chatbase.com/documentation/generic)
+For more information related to Chatbase, read [official Chatbase documentation](https://chatbase.com/documentation/generic)
 
 ## Installation
 
