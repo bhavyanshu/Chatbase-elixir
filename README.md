@@ -1,5 +1,7 @@
 # Chatbase
 
+[![Hex.pm](https://img.shields.io/hexpm/v/chatbase.svg?style=flat-square)](https://hex.pm/packages/chatbase)
+
 Elixir based client that provides helper methods to log data to Chatbase Bot Analytics API
 
 > Note: This is not an official Google product.
