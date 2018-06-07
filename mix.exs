@@ -4,14 +4,14 @@ defmodule Chatbase.Mixfile do
   def project do
     [
       app: :chatbase,
-      version: "0.0.2",
+      version: "0.0.3",
       description: description(),
       elixir: "~> 1.4",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
       deps: deps(),
       package: package(),
-      source_url: "https://github.com/bhavyanshu/chatbase-elixir",
+      source_url: "https://gitlab.com/bhavyanshu/chatbase-elixir",
       docs: [
         extras: ["README.md"]
       ]
@@ -42,7 +42,7 @@ defmodule Chatbase.Mixfile do
       files: ["lib", "config", "mix.exs", "README*", "LICENSE*",],
       maintainers: ["Bhavyanshu Parasher"],
       licenses: ["MIT"],
-      links: %{"Github" => "https://github.com/bhavyanshu/chatbase-elixir"}
+      links: %{"Gitlab" => "https://gitlab.com/bhavyanshu/chatbase-elixir"}
     ]
   end
 
